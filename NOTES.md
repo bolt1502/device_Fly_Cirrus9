@@ -11,6 +11,16 @@ cd ~/RR/device/MTS/SMART_Surf_4G
 
 ***********
 
+  * Сборка KernelAdiutor
+
+git clone git://github.com/Grarak/KernelAdiutor.git
+cd ~/KernelAdiutor
+./gradlew build
+
+Переименовать и скопировать готовый APK в vendor/MTS/SMART_Surf_4G/app
+
+***********
+
 Почти все патчи использованы от исходного дерева https://github.com/DeckerSU/android_device_doogee_x5max_pro
 
  * Применить патчи:

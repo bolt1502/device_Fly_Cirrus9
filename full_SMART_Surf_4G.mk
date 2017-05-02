@@ -99,7 +99,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/ueventd.mt6735.rc:root/ueventd.mt6735.rc \
     $(LOCAL_PATH)/rootdir/root/ueventd.rc:root/ueventd.rc \
     $(LOCAL_PATH)/rootdir/root/init.project.rc:root/init.project.rc \
-    $(LOCAL_PATH)/rootdir/root/enableswap.sh:root/enableswap.sh \
+    $(LOCAL_PATH)/rootdir/root/fstab.swap:root/fstab.swap \
     $(LOCAL_KERNEL):kernel
 
 # Permissions
