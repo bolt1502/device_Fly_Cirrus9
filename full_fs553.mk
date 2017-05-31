@@ -1,4 +1,4 @@
-LOCAL_PATH := device/MTS/SMART_Surf_4G
+LOCAL_PATH := device/fly/fs553
 
 ##
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -8,7 +8,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core.mk)
 ## The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/MTS/SMART_Surf_4G/SMART_Surf_4G-vendor.mk)
+$(call inherit-product-if-exists, vendor/fly/fs553/fs553-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay # enable this to be able overlay a default wallpaper
