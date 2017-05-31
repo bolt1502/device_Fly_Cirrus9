@@ -1,5 +1,5 @@
-DEVICE_PATH := device/MTS/SMART_Surf_4G
-VENDOR_PATH := vendor/MTS/SMART_Surf_4G
+DEVICE_PATH := device/fly/fs553
+VENDOR_PATH := vendor/fly/fs553
 
 # inherit from the proprietary version
 -include $(VENDOR_PATH)/BoardConfigVendor.mk
@@ -43,14 +43,14 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 419430400
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/kernel
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board 1471342055
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board S517_M_E1_FLY_2
 
 BOARD_CUSTOM_BOOTIMG := true
 BLOCK_BASED_OTA := false
 TARGET_KMODULES := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := SMART_Surf_4G
+TARGET_OTA_ASSERT_DEVICE := fs553,FLY_FS553,FLY,FS553,Cirrus_9,rlk6737m_35g_c_m0,Fly_Cirrus_9
 
 #COMMON_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
