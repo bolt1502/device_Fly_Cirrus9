@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEVICE=SMART_Surf_4G
-VENDOR=MTS
+DEVICE=fs553
+VENDOR=fly
 
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
